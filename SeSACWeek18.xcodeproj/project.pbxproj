@@ -21,6 +21,8 @@
 		2FAD762B291353F500B02B8D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD762A291353F500B02B8D /* RxCocoa */; };
 		2FAD762D291353F500B02B8D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD762C291353F500B02B8D /* RxSwift */; };
 		2FAD7631291362A200B02B8D /* SubscriptExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD7630291362A200B02B8D /* SubscriptExample.swift */; };
+		2FAD763329139E3800B02B8D /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD763229139E3800B02B8D /* String + Extension.swift */; };
+		2FAD763529139E9F00B02B8D /* CollectionType + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD763429139E9F00B02B8D /* CollectionType + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		2FAD7625291351D000B02B8D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		2FAD76272913532300B02B8D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		2FAD7630291362A200B02B8D /* SubscriptExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptExample.swift; sourceTree = "<group>"; };
+		2FAD763229139E3800B02B8D /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		2FAD763429139E9F00B02B8D /* CollectionType + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionType + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				2FA4771A29120A0200AD4CB8 /* Assets.xcassets */,
 				2FA4771C29120A0200AD4CB8 /* LaunchScreen.storyboard */,
 				2FA4771F29120A0200AD4CB8 /* Info.plist */,
+				2FAD763229139E3800B02B8D /* String + Extension.swift */,
+				2FAD763429139E9F00B02B8D /* CollectionType + Extension.swift */,
 			);
 			path = SeSACWeek18;
 			sourceTree = "<group>";
@@ -188,7 +194,9 @@
 				2FA4771229120A0100AD4CB8 /* AppDelegate.swift in Sources */,
 				2FAD7626291351D000B02B8D /* Network.swift in Sources */,
 				2FA4772A29120EFB00AD4CB8 /* APIService.swift in Sources */,
+				2FAD763529139E9F00B02B8D /* CollectionType + Extension.swift in Sources */,
 				2FAD7631291362A200B02B8D /* SubscriptExample.swift in Sources */,
+				2FAD763329139E3800B02B8D /* String + Extension.swift in Sources */,
 				2FA4771429120A0100AD4CB8 /* SceneDelegate.swift in Sources */,
 				2FAD76282913532300B02B8D /* ProfileViewModel.swift in Sources */,
 				2FA4772C29121BDE00AD4CB8 /* Endpoint.swift in Sources */,

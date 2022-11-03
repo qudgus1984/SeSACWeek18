@@ -43,37 +43,46 @@ class ViewController: UIViewController {
     //값 참조 타입 8회차
     func checkCOW() {
         
-        var test = "jack"
-        address(&test) // in out 매개변수
+        var test = "Cody"
         
-        print(test[2])
-        print(test[200])
+        address(&test)
         
         var test2 = test
         address(&test2)
         
-        test2 = "sesac"
+        test2 = "SeSAC"
         address(&test)
         address(&test2)
         
         var array = Array(repeating: "A", count: 100) //Array, Dictionary, Set == Collection Type일 때만 일어남!!
-        print("array")
+        print("🍎🍎🍎array")
         address(&array)
-        
-        print(array[safe: 99])
-        print(array[safe: 199])
-        
+
         var newArray = array // 실제로 복사 안함! 원본을 공유하고 있음.
-        print("newArray")
+        print("🍏🍏🍏newArray")
         address(&newArray)
         
         newArray[0] = "B" // 이때 값을 수정할 때 복사가 일어남!!
-        print("array")
+        print("=================배열 값 변경함===================")
+        print("🍎🍎🍎array")
         address(&array)
-        print("newArray")
+        print("🍏🍏🍏newArray")
         address(&newArray)
 
-        
+        var list = (1,2,3,"hi")
+        print("🍎🍎🍎tuple")
+        address(&list)
+        var newList = list
+        print("🍏🍏🍏newTuple")
+        address(&newList)
+
+        list.0 = 3
+        print("튜플 값 변경함===================")
+        print("🍎🍎🍎tuple")
+        address(&list)
+        print("🍏🍏🍏newTuple")
+        address(&newList)
+
     }
     
     func address(_ value: UnsafeRawPointer) {
