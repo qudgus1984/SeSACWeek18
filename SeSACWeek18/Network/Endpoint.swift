@@ -22,7 +22,7 @@ extension SeSACAPI {
         case .login:
             return URL(string: "http://api.memolease.com/api/v1/users/login")!
         case .profile:
-            return URL(string: "http://api.memolease.com/api/v1/users/profile")!
+            return URL(string: "http://api.memolease.com/api/v1/users/me")!
         }
     }
     
